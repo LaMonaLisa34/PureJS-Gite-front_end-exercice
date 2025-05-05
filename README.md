@@ -21,7 +21,7 @@ Ce projet a été réalisé dans un **cadre pédagogique** pour s’exercer à l
 - `reservation.html` — Réservation avec dates, formules et formulaire
 - `calendar.html` — Calendrier affiché dynamiquement
 - `formulaire.html` — Formulaire de contact
-- `admin.html` — Page d'adminisatration
+- `admin.html` — Page d'administration
 
 ---
 
