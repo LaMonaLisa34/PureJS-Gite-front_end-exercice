@@ -15,16 +15,6 @@ Ce projet a été réalisé dans un **cadre pédagogique** pour s’exercer à l
 
 ---
 
-## Pages principales
-
-- `index.html` — Page d’accueil dynamique
-- `reservation.html` — Réservation avec dates, formules et formulaire
-- `calendar.html` — Calendrier affiché dynamiquement
-- `formulaire.html` — Formulaire de contact
-- `admin.html` — Page d'administration
-
----
-
 ## Technologies utilisées
 
 - HTML5 / CSS3
