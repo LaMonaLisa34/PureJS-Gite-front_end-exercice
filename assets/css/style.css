@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: none;
+}
+
+header {
+  background: url("../images/bg-gite.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #603a40;
+}
+
+
+footer p, footer a {
+  font-size: 14px;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  z-index: 100;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg, 
+   transparent, 
+   rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.header:hover::before {
+  left: 100%;
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 35px;
+  transition: 0.3s;
+
+}
+
+.navbar a:hover {
+  color: #af9bb6;
+
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding: 1.25rem 4%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 4%;
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 1.5rem 0;
+  }
+}
+
+.main-color-dark{
+  background-color: #191716;
+}
+.histoire{
+  color: white;
+  padding: 50px;
+}
+
+
+h2 {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+
+p{
+  font-family: "Roboto", sans-serif;
+  padding: 15px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+
+}
+
+#imghistoire{
+  transition: transform 0.5s ease;
+  height: auto;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+#separateur {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 90%; 
+  height: 60px; 
+  background-color: #84596b; 
+  border-radius: 50px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#separateurbis {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 90%;
+  height: 3px; 
+  background-color: #603a40; 
+  border-radius: 50px; 
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+
+.fond{
+  background-color: #84596b86 ;
+  margin-bottom: 50px;
+  border-radius: 0px 50px 50px 0px;
+  margin-top: 30px;
+}
+
+#btn, #btn1, #btn2, #btn3, #btn4, #btn5, #btn6{
+  background-color: #af9bb6;
+  color: #191716;
+  border-radius: 20px;
+  border: none;
+  margin: 15px;
+}
+
+#btn:hover{
+  background-color: #84596b;
+  color: #000000;
+  border-radius: 20px;
+  border: none;
+}
+
+#imgch{
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+details.accordion-item:not([open]) .accordion-button {
+  background-color: var(--bs-accordion-bg);
+}
+
+details.accordion-item:not([open]) .accordion-button::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: unset;
+}
+
+details.accordion-item[open] .accordion-button::after {
+  background-image: var(--bs-accordion-btn-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff !important;
+}
+
+li {
+  list-style: none;
+}
+
+.carouselstyle {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+header {
+	background: url("../images/solid-color-image.jpeg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+  }
+
+.Abody{
+	height: 100vh;
+	width: 100%;
+}
+
+.Acontainer{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+
+.Acontainer:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("../images/bg-gite.png") no-repeat center;
+	background-size: cover;
+	z-index: -1;
+}
+
+.Acontact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 19px 5px rgba(249, 247, 247, 0.19);
+    border-radius: 10px; 
+    backdrop-filter: blur(10px); 
+	
+}
+
+.Aleft{
+	background: url("bg-gite.png") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+
+.Aright{
+	padding: 25px 40px;
+}
+
+.mytitle2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+.mytitle2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #191716;
+}
+
+
+.Afield{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(250, 248, 248, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+    border-radius: 0;
+}
+
+.Afield:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.Abtn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #191716;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    border-radius: 5px;
+}
+
+.Abtn:hover{
+    background-color: rgba(68, 13, 15, 0.7);
+}
+
+@media screen and (max-width: 880px){
+	.Acontact-box{
+		grid-template-columns: 1fr;
+	}
+	.Aleft{
+		height: 200px;
+	}
+}
