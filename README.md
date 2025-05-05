@@ -36,8 +36,8 @@ Ce projet a été réalisé dans un **cadre pédagogique** pour s’exercer à l
 
 ## Lancer le projet
 
-1. Cloner le dépôt :
-   git clone https://github.com/LaMonaLisa34/PureJS-Gîte-front_end-exercice.git
+Cloner le dépôt :
+git clone https://github.com/LaMonaLisa34/PureJS-Gîte-front_end-exercice.git
 
 ###### Bonus
 Projet 100% JavaScript. Aucun HTML n’a été maltraité manuellement durant la construction de ce site.
